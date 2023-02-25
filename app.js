@@ -8,7 +8,7 @@ const adjustBtn = document.querySelectorAll(".adjust");
 const lockBtn = document.querySelectorAll(".lock");
 const closeAdjustment = document.querySelectorAll(".close-adjustment");
 const sliderContainers = document.querySelectorAll(".sliders");
-const lockBtnInside = document.querySelectorAll('button.lock i')
+const lockBtnInside = document.querySelectorAll("button.lock i");
 let initialColors;
 
 //EVENT LISTENERS :
@@ -182,9 +182,6 @@ function openAdjustmentPanel(index) {
 }
 function closeAdjustmentPanel(index) {
   sliderContainers[index].classList.remove("active");
-}
-function myFunction(x) {
-  x.classList.toggle("fa-solid fa-lock");
 }
 
 randomColors();
