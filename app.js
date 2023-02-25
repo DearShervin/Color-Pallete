@@ -183,8 +183,5 @@ function openAdjustmentPanel(index) {
 function closeAdjustmentPanel(index) {
   sliderContainers[index].classList.remove("active");
 }
-function myFunction(x) {
-  x.classList.toggle("fa-solid fa-lock");
-}
 
 randomColors();
